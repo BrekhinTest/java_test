@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Homework6 {
+public class Main {
     public static void checkYear(int year) {
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             System.out.printf("%d is a leap year\n", year);
